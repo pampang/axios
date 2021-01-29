@@ -22,6 +22,7 @@ function generateConfig(name) {
   return config;
 }
 
+// 这里为 axios 和 axios.min 分别创建了一个 webpack 配置
 ['axios', 'axios.min'].forEach(function (key) {
   config[key] = generateConfig(key);
 });
