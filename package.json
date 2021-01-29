@@ -13,7 +13,7 @@
     "examples": "node ./examples/server.js",
     "coveralls": "cat coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
     "fix": "eslint --fix lib/**/*.js",
-    "comment": "git add . && git commit -m 'commit comments' && git push"
+    "comment": "git commit -am 'commit comments' && git push"
   },
   "repository": {
     "type": "git",
